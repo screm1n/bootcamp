@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+.poster {
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+img {
+    border: 5px solid white;
+    width: 60%
+}
