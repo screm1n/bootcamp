@@ -71,11 +71,11 @@ textarea {
   border: 0;
   cursor: pointer;
   color: white;
-  font-size: 24px;
+  font-size: 22px;
   padding-top: 10px;
   padding-bottom: 10px;
   transition: all 0.3s;
-  margin-top: -4px;
+  margin-top: -3px;
   font-weight: 700;
 }
 [type="submit"]:hover {
