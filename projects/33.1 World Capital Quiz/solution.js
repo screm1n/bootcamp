@@ -11,7 +11,7 @@ const db = new pg.Client({
 });
 
 const app = express();
-const port = 3000;
+const port = 4000;
 
 db.connect();
 
@@ -36,7 +36,7 @@ let currentQuestion = {};
 // GET home page
 app.get("/", async (req, res) => {
   totalCorrect = 0;
-  await nextQuestion();
+  await nextQuestion();  
   console.log(currentQuestion);
   res.render("index.ejs", { question: currentQuestion });
 });
