@@ -1,7 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
 import pg from "pg";
-import { Translate } from '@google-cloud/translate';
 
 const db = new pg.Client({
   user: "postgres",
@@ -27,9 +26,6 @@ db.query("SELECT * FROM flags", (err, res) => {
 });
 
 let totalCorrect = 0;
-
-// Configure o cliente do Google Translate com suas credenciais
-const translate = new Translate({ projectId: 'solution.js', keyFilename: 'package.json' });
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -63,43 +59,8 @@ app.post("/submit", (req, res) => {
   });
 });
 
-async function traduzirTexto(texto, idiomaOrigem, idiomaDestino) {
-  try {
-    const [traducao] = await translate.translate(texto, { from: en, to: pt });
-    return traducao;
-  } catch (erro) {
-    console.error('Erro na tradução:', erro);
-    return texto;
-  }
-}
-
-async function traduzirDados() {
-  try {
-    const consulta = "SELECT * FROM flags";
-    const resultado = await db.query(consulta);
-
-    const dadosTraduzidos = await Promise.all(
-      resultado.rows.map(async (linha) => {
-        const linhasTraduzidas = await Promise.all(
-          Object.entries(linha).map(async ([coluna, valor]) => ({
-            [coluna]: await traduzirTexto(valor, 'en', 'pt'),
-          }))
-        );
-
-        return Object.assign({}, ...linhasTraduzidas);
-      })
-    );
-
-    return dadosTraduzidos;
-  } catch (erro) {
-    console.error('Erro ao traduzir dados:', erro);
-    return [];
-  }
-}
-
 async function nextQuestion() {
-  const dadosTraduzidos = await traduzirDados();
-  const randomCountry = dadosTraduzidos[Math.floor(Math.random() * dadosTraduzidos.length)];
+  const randomCountry = quiz[Math.floor(Math.random() * quiz.length)];
 
   currentQuestion = randomCountry;
 }
