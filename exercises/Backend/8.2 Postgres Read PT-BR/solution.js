@@ -16,7 +16,7 @@ const port = 4000;
 db.connect();
 
 let quiz = [];
-db.query("SELECT * FROM flags", (err, res) => {
+db.query("SELECT * FROM flagspt", (err, res) => {
   if (err) {
     console.error("Error executing query", err.stack);
   } else {
