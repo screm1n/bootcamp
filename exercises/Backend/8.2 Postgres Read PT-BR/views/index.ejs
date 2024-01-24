@@ -20,7 +20,7 @@
   <form class="container" action="/submit" method="post">
     <div class="horizontal-container">
       <h3>
-        Total Score:
+        Pontuação total:
         <span id="score">
           <%= locals.totalScore ? totalScore : "0" %>
         </span>
@@ -29,10 +29,10 @@
     </div>
     <h1 id="countryFlag" class="twemoji"><%= question.flag %></h1>
     <div class="answer-container">
-      <input type="text" name="answer" id="userInput" placeholder="Name the country" autofocus autocomplete="off">
+      <input type="text" name="answer" id="userInput" placeholder="Nome do país" autofocus autocomplete="off">
 
     </div>
-    <button type="submit">SUBMIT<% if(locals.wasCorrect){ %>
+    <button type="submit">Enviar<% if(locals.wasCorrect){ %>
         <span class="checkmark">✔</span>
         <% } else if (locals.wasCorrect===false) { %>
           <span class="cross" id="error">✖</span>

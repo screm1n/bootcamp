@@ -152,7 +152,7 @@ id,nome,bandeira
 152,Namíbia,🇳🇦
 153,Nauru,🇳🇷
 154,Nepal,🇳🇵
-156,Países Baixos,🇳🇱
+156,Holanda,🇳🇱
 157,Nova Caledônia,🇳🇨
 158,Nova Zelândia,🇳🇿
 159,Nicarágua,🇳🇮
@@ -190,7 +190,7 @@ id,nome,bandeira
 189,São Bartolomeu,🇧🇱
 190,Ilha de São Martinho,🇲🇫
 191,Samoa,🇼🇸
-192,São Marino,🇸🇲
+192,San Marino,🇸🇲
 193,São Tomé e Príncipe,🇸🇹
 194,Arábia Saudita,🇸🇦
 195,Senegal,🇸🇳
@@ -204,14 +204,14 @@ id,nome,bandeira
 202,Ilhas Salomão,🇸🇧
 203,Somália,🇸🇴
 204,África do Sul,🇿🇦
-205,Geórgia do Sul,🇬🇸
+205,Ilhas Geórgia do Sul,🇬🇸
 116,Coreia do Sul,🇰🇷
 206,Sudão do Sul,🇸🇸
 207,Espanha,🇪🇸
 208,Sri Lanka,🇱🇰
 209,Sudão,🇸🇩
 210,Suriname,🇸🇷
-211,Svalbard e Jan Mayen,🇸🇯
+211,Noruega,🇳🇴
 212,Essuatíni,🇸🇿
 213,Suécia,🇸🇪
 214,Suíça,🇨🇭
@@ -248,4 +248,4 @@ id,nome,bandeira
 244,Saara Ocidental,🇪🇭
 245,Iêmen,🇾🇪
 246,Zâmbia,🇿🇲
-247,Zimbábue,🇿🇼
+247,Zimbábue,🇿🇼🇸🇯
