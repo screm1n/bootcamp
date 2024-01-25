@@ -77,7 +77,6 @@ id,nome,bandeira
 75,França,🇫🇷
 76,Guiana Francesa,🇬🇫
 77,Polinésia Francesa,🇵🇫
-78,Territórios Franceses do Sul,🇹🇫
 79,Gabão,🇬🇦
 80,Gâmbia,🇬🇲
 81,Geórgia,🇬🇪
@@ -90,12 +89,10 @@ id,nome,bandeira
 88,Guadeloupe,🇬🇵
 89,Guam,🇬🇺
 90,Guatemala,🇬🇹
-91,Guernsey e Alderney,🇬🇬
 92,Guiné,🇬🇳
 93,Guiné-Bissau,🇬🇼
 94,Guiana,🇬🇾
 95,Haiti,🇭🇹
-96,Ilha Heard e Ilhas McDonald,🇭🇲
 97,Honduras,🇭🇳
 98,Hong Kong.,🇭🇰
 99,Hungria,🇭🇺
@@ -211,7 +208,6 @@ id,nome,bandeira
 208,Sri Lanka,🇱🇰
 209,Sudão,🇸🇩
 210,Suriname,🇸🇷
-211,Noruega,🇳🇴
 212,Essuatíni,🇸🇿
 213,Suécia,🇸🇪
 214,Suíça,🇨🇭
@@ -228,14 +224,12 @@ id,nome,bandeira
 224,Tunísia,🇹🇳
 225,Turquia,🇹🇷
 226,Turquemenistão,🇹🇲
-227,Ilhas Turcas e Caicos,🇹🇨
 228,Tuvalu,🇹🇻
 229,Uganda,🇺🇬
 230,Ucrânia,🇺🇦
 231,Emirados Árabes Unidos,🇦🇪
 232,Reino Unido,🇬🇧
 233,Estados Unidos,🇺🇸
-234,Ilhas Menores Distantes dos Estados Unidos,🇺🇲
 235,Uruguai,🇺🇾
 236,Uzbequistão,🇺🇿
 237,Vanuatu,🇻🇺
