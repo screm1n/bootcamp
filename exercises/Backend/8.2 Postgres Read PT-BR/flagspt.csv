@@ -28,7 +28,6 @@ id,nome,bandeira
 155,Países Baixos Caribenhos,🇧🇶
 28,Bósnia e Herzegovina,🇧🇦
 29,Botswana,🇧🇼
-30,Bouvet Island,🇧🇻
 31,Brasil,🇧🇷
 32,Território Britânico do Oceano Índico,🇮🇴
 33,Brunei,🇧🇳
@@ -56,7 +55,7 @@ id,nome,bandeira
 56,Cuba,🇨🇺
 249,Curaçao,🇨🇼
 57,Chipre,🇨🇾
-58,República Checa,🇨🇿
+58,República Tcheca,🇨🇿
 51,República Democrática do Congo,🇨🇩
 59,Dinamarca,🇩🇰
 60,Djibouti,🇩🇯
@@ -72,7 +71,7 @@ id,nome,bandeira
 70,Etiópia,🇪🇹
 71,Ilhas Malvinas,🇫🇰
 72,Ilhas Faroé,🇫🇴
-73,Ilhas Fiji,🇫🇯
+73,Fiji,🇫🇯
 74,Finlândia,🇫🇮
 75,França,🇫🇷
 76,Guiana Francesa,🇬🇫
@@ -84,11 +83,12 @@ id,nome,bandeira
 83,Gana,🇬🇭
 84,Gibraltar,🇬🇮
 85,Grécia,🇬🇷
-86,Gronelândia,🇬🇱
+86,Groenlândia,🇬🇱
 87,Granada,🇬🇩
 88,Guadeloupe,🇬🇵
 89,Guam,🇬🇺
 90,Guatemala,🇬🇹
+91,Guernsey,🇬🇬
 92,Guiné,🇬🇳
 93,Guiné-Bissau,🇬🇼
 94,Guiana,🇬🇾
@@ -175,16 +175,13 @@ id,nome,bandeira
 177,Portugal,🇵🇹
 178,Porto Rico,🇵🇷
 179,Catar,🇶🇦
-180,Ilha da Reunião,🇷🇪
 181,Romênia,🇷🇴
 182,Rússia,🇷🇺
 183,Ruanda,🇷🇼
 184,Santa Helena,🇸🇭
 185,São Cristóvão e Névis,🇰🇳
 186,Santa Lúcia,🇱🇨
-187,São Pedro e Miquelon,🇵🇲
 188,São Vicente e Granadinas,🇻🇨
-189,São Bartolomeu,🇧🇱
 190,Ilha de São Martinho,🇲🇫
 191,Samoa,🇼🇸
 192,San Marino,🇸🇲
@@ -201,7 +198,6 @@ id,nome,bandeira
 202,Ilhas Salomão,🇸🇧
 203,Somália,🇸🇴
 204,África do Sul,🇿🇦
-205,Ilhas Geórgia do Sul,🇬🇸
 116,Coreia do Sul,🇰🇷
 206,Sudão do Sul,🇸🇸
 207,Espanha,🇪🇸
@@ -238,7 +234,7 @@ id,nome,bandeira
 240,Vietnã,🇻🇳
 241,Ilhas Virgens Britânicas,🇻🇬
 242,Ilhas Virgens Americanas,🇻🇮
-243,Ilhas Wallis e Futuna,🇼🇫
+243,Wallis e Futuna,🇼🇫
 244,Saara Ocidental,🇪🇭
 245,Iêmen,🇾🇪
 246,Zâmbia,🇿🇲
