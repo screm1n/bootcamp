@@ -3,14 +3,14 @@ import bodyParser from "body-parser";
 import pg from "pg";
 
 const app = express();
-const port = 3000;
+const port = 4000;
 
 const db = new pg.Client({
   user: "postgres",
   host: "localhost",
   database: "world",
-  password: "123456",
-  port: 5432,
+  password: "angela",
+  port: 3000,
 });
 db.connect();
 
